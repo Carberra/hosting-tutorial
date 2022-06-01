@@ -20,6 +20,13 @@ async def cmd_echo(ctx: lightbulb.SlashContext) -> None:
     await ctx.respond(ctx.options.text)
 
 
+@bot.command()
+@lightbulb.command("ping", "Pong!")
+@lightbulb.implements(lightbulb.SlashCommand)
+async def cmd_echo(ctx: lightbulb.SlashContext) -> None:
+    await ctx.respond(bot.heartbeat_latency)
+
+
 def run() -> None:
     if os.name != "nt":
         import uvloop
