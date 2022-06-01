@@ -1,0 +1,5 @@
+hikari[speedups]
+hikari-lightbulb
+hikari-miru
+python-dotenv
+uvloop
