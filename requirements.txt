@@ -1,4 +1,4 @@
-hikari[speedups]
-hikari-lightbulb
-python-dotenv
-uvloop
+hikari[speedups]==2.0.0.dev108
+hikari-lightbulb>=2.2.2
+python-dotenv>=0.20.0
+uvloop>=0.16.0
